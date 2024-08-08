@@ -1,4 +1,10 @@
 # This packages are required to install and run our package.
-Scrapy>=1.0
-redis>=2.10
+Scrapy>=2.6.0
+redis>=4.3.6
 six>=1.5.2
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=22.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
